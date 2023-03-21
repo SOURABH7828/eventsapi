@@ -1,6 +1,6 @@
 const express = require("express");
 
-const { getAllEvents, createEvent, updateEvent, deleteEvent, getEventDetails, getEventReviews, deleteReview, getAdminEvents } = require("../controllers/EventController");
+const { getAllEvents, createEvent, updateEvent, deleteEvent, getEventDetails, getEventReviews, deleteReview, getAdminEvents } = require("../controllers/eventController");
 const { createEventReview } = require("../controllers/userController");
 const { isAuthenticatedUser, authorizeRoles } = require("../middleware/auth");
 
